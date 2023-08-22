@@ -1,6 +1,6 @@
 #!/bin/sh
-export ROOT=..$(cd `dirname $0`; pwd)
-export DAEMON = false 
+export ROOT=$(cd ../`dirname $0`; pwd)
+export DAEMON=false 
 
 while getopts "DK" arg
 do 
@@ -15,4 +15,4 @@ do
         esac
 done
 
-$ROOT/skynet/skynet $ROOT/config
+$ROOT/skynet/skynet $ROOT/config/config

@@ -9,7 +9,7 @@ RUN yum install -y centos-release-scl && \
     yum install -y devtoolset-9 && \
     echo "source /opt/rh/devtoolset-9/enable" >> ~/.bashrc
 
-RUN yum install -y wget make git autoconf net-tools
+RUN yum install -y wget make git autoconf net-tools telnet
 
 # Lua install
 RUN wget -P /download --no-check-certificate https://www.lua.org/ftp/lua-5.4.4.tar.gz && \
