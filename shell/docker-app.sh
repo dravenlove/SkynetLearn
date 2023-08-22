@@ -1,0 +1,1 @@
+dcoker build -t skynet-leran:latest $ROOT/Docker
