@@ -98,3 +98,29 @@
 23/08/23 09:16:15.20 [:01000009] Watchdog listen on 0.0.0.0:8888
 23/08/23 09:16:15.20 [:01000009] KILL self
 23/08/23 09:16:15.20 [:01000002] KILL self
+23/08/23 09:20:11.53 [:01000002] LAUNCH snlua bootstrap
+23/08/23 09:20:11.59 [:01000003] LAUNCH snlua launcher
+23/08/23 09:20:11.61 [:01000004] LAUNCH snlua cmaster
+23/08/23 09:20:11.63 [:01000004] master listen socket 0.0.0.0:2013
+23/08/23 09:20:11.63 [:01000005] LAUNCH snlua cslave
+23/08/23 09:20:11.65 [:01000005] slave connect to master 127.0.0.1:2013
+23/08/23 09:20:11.65 [:01000004] connect from 127.0.0.1:51662 4
+23/08/23 09:20:11.65 [:01000006] LAUNCH harbor 1 16777221
+23/08/23 09:20:11.65 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:2526
+23/08/23 09:20:11.65 [:01000005] Waiting for 0 harbors
+23/08/23 09:20:11.66 [:01000005] Shakehand ready
+23/08/23 09:20:11.66 [:01000007] LAUNCH snlua datacenterd
+23/08/23 09:20:11.67 [:01000008] LAUNCH snlua service_mgr
+23/08/23 09:20:11.71 [:01000009] LAUNCH snlua main
+23/08/23 09:20:11.75 [:01000009] Server start
+23/08/23 09:20:11.75 [:0100000a] LAUNCH snlua protoloader
+23/08/23 09:20:11.78 [:01000009] daemon : /home/SkynetLearn/skynet.pid!
+23/08/23 09:20:11.78 [:0100000b] LAUNCH snlua debug_console 8000
+23/08/23 09:20:11.83 [:0100000b] Start debug console at 127.0.0.1:8000
+23/08/23 09:20:11.83 [:0100000c] LAUNCH snlua simpledb
+23/08/23 09:20:11.85 [:0100000d] LAUNCH snlua watchdog
+23/08/23 09:20:11.86 [:0100000e] LAUNCH snlua gate
+23/08/23 09:20:11.89 [:0100000e] Listen on 0.0.0.0:8888
+23/08/23 09:20:11.89 [:01000009] Watchdog listen on 0.0.0.0:8888
+23/08/23 09:20:11.89 [:01000009] KILL self
+23/08/23 09:20:11.89 [:01000002] KILL self

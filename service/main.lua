@@ -6,8 +6,6 @@ local max_client = 64
 skynet.start(function()
 	skynet.error("Server start")
 	skynet.uniqueservice("protoloader")
-	-- local fuck = skynet.getenv "daemon"
-	-- skynet.error("daemon : " .. fuck .. "!")
 	if not skynet.getenv "daemon" then
 		local console = skynet.newservice("console")
 	end
