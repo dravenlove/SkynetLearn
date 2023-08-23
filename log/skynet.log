@@ -1,0 +1,51 @@
+23/08/23 06:59:08.57 [:01000002] LAUNCH snlua bootstrap
+23/08/23 06:59:08.62 [:01000003] LAUNCH snlua launcher
+23/08/23 06:59:08.64 [:01000004] LAUNCH snlua cmaster
+23/08/23 06:59:08.66 [:01000004] master listen socket 0.0.0.0:2013
+23/08/23 06:59:08.66 [:01000005] LAUNCH snlua cslave
+23/08/23 06:59:08.68 [:01000005] slave connect to master 127.0.0.1:2013
+23/08/23 06:59:08.69 [:01000004] connect from 127.0.0.1:57400 4
+23/08/23 06:59:08.69 [:01000006] LAUNCH harbor 1 16777221
+23/08/23 06:59:08.69 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:2526
+23/08/23 06:59:08.69 [:01000005] Waiting for 0 harbors
+23/08/23 06:59:08.69 [:01000005] Shakehand ready
+23/08/23 06:59:08.69 [:01000007] LAUNCH snlua datacenterd
+23/08/23 06:59:08.70 [:01000008] LAUNCH snlua service_mgr
+23/08/23 06:59:08.73 [:01000009] LAUNCH snlua main
+23/08/23 06:59:08.77 [:01000009] Server start
+23/08/23 06:59:08.77 [:0100000a] LAUNCH snlua protoloader
+23/08/23 06:59:08.80 [:0100000b] LAUNCH snlua debug_console 8000
+23/08/23 06:59:08.85 [:0100000b] Start debug console at 127.0.0.1:8000
+23/08/23 06:59:08.85 [:0100000c] LAUNCH snlua simpledb
+23/08/23 06:59:08.87 [:0100000d] LAUNCH snlua watchdog
+23/08/23 06:59:08.88 [:0100000e] LAUNCH snlua gate
+23/08/23 06:59:08.91 [:0100000e] Listen on 0.0.0.0:8888
+23/08/23 06:59:08.91 [:01000009] Watchdog listen on 0.0.0.0:8888
+23/08/23 06:59:08.91 [:01000009] KILL self
+23/08/23 06:59:08.91 [:01000002] KILL self
+23/08/23 06:59:40.87 [:01000002] LAUNCH snlua bootstrap
+23/08/23 06:59:40.93 [:01000003] LAUNCH snlua launcher
+23/08/23 06:59:40.94 [:01000004] LAUNCH snlua cmaster
+23/08/23 06:59:40.96 [:01000004] master listen socket 0.0.0.0:2013
+23/08/23 06:59:40.97 [:01000005] LAUNCH snlua cslave
+23/08/23 06:59:40.99 [:01000005] slave connect to master 127.0.0.1:2013
+23/08/23 06:59:40.99 [:01000004] connect from 127.0.0.1:45214 4
+23/08/23 06:59:40.99 [:01000006] LAUNCH harbor 1 16777221
+23/08/23 06:59:40.99 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:2526
+23/08/23 06:59:40.99 [:01000005] Waiting for 0 harbors
+23/08/23 06:59:40.99 [:01000005] Shakehand ready
+23/08/23 06:59:40.99 [:01000007] LAUNCH snlua datacenterd
+23/08/23 06:59:41.01 [:01000008] LAUNCH snlua service_mgr
+23/08/23 06:59:41.04 [:01000009] LAUNCH snlua main
+23/08/23 06:59:41.08 [:01000009] Server start
+23/08/23 06:59:41.08 [:0100000a] LAUNCH snlua protoloader
+23/08/23 06:59:41.11 [:0100000b] LAUNCH snlua console
+23/08/23 06:59:41.14 [:0100000c] LAUNCH snlua debug_console 8000
+23/08/23 06:59:41.18 [:0100000c] Start debug console at 127.0.0.1:8000
+23/08/23 06:59:41.18 [:0100000d] LAUNCH snlua simpledb
+23/08/23 06:59:41.20 [:0100000e] LAUNCH snlua watchdog
+23/08/23 06:59:41.21 [:0100000f] LAUNCH snlua gate
+23/08/23 06:59:41.24 [:0100000f] Listen on 0.0.0.0:8888
+23/08/23 06:59:41.24 [:01000009] Watchdog listen on 0.0.0.0:8888
+23/08/23 06:59:41.24 [:01000009] KILL self
+23/08/23 06:59:41.24 [:01000002] KILL self

@@ -1,6 +1,6 @@
 -- module proto as examples/proto.lua
 -- The config location is the current location
-package.path = "../service/?.lua;" .. package.path
+package.path = "./service/?.lua;" .. package.path
 
 local skynet = require "skynet"
 local sprotoparser = require "sprotoparser"

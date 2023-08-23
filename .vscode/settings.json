@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "skynet_socket.h": "c",
+        "socket_buffer.h": "c"
+    }
+}

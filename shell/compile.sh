@@ -1,5 +1,5 @@
 #!/bin/sh
-export ROOT=..$(cd `dirname $0`; pwd)
+source `dirname $0`/project.sh
 
-cd ../skynet
+cd $ROOT/skynet
 make linux
