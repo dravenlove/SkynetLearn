@@ -40,6 +40,7 @@ function SOCKET.data(fd, msg)
 end
 
 function CMD.start(conf)
+	skynet.error("watch dog cmd start!")
 	return skynet.call(gate, "lua", "open" , conf)
 end
 
@@ -49,6 +50,7 @@ end
 
 skynet.start(function()
 	skynet.dispatch("lua", function(session, source, cmd, subcmd, ...)
+		skynet.error("watch dog dispatch  cmd:" .. cmd)
 		if cmd == "socket" then
 			local f = SOCKET[subcmd]
 			f(...)
