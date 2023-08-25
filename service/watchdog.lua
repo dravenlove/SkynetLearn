@@ -45,12 +45,14 @@ function CMD.start(conf)
 end
 
 function CMD.close(fd)
+	print("cmd close", fd)
 	close_agent(fd)
 end
 
 skynet.start(function()
 	skynet.dispatch("lua", function(session, source, cmd, subcmd, ...)
 		skynet.error("watch dog dispatch  cmd:" .. cmd)
+		skynet.error("watch dog now session:" .. session)
 		if cmd == "socket" then
 			local f = SOCKET[subcmd]
 			f(...)

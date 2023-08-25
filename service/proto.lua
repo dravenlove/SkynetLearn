@@ -32,6 +32,22 @@ set 3 {
 
 quit 4 {}
 
+test_connect 5 {
+	response {
+		result 0 : string
+	}
+}
+
+test 6 {
+	request {
+		what 0 : string
+		table 1 : string
+	}
+	response {
+		result 0 : string
+	}
+}
+
 ]]
 
 proto.s2c = sprotoparser.parse [[

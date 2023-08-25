@@ -10,6 +10,26 @@ local send_request
 local CMD = {}
 local REQUEST = {}
 local client_fd
+local c2s_sproto
+
+
+function REQUEST:test()
+	skynet.error("test " .. " what:" .. self.what)
+	local r = skynet.call("DBSERVER", "lua", self.what, self.table, {account_id = "1999", password = "123456"})
+	return { result = r}
+end
+
+function REQUEST:test_connect()
+	skynet.error("mysql test_connect successs!")
+	local dbhost = "192.168.65.254"
+	local port = 3306
+	local database = "skynetlearn"
+	local user = "root"
+	local passward = "123456"
+	local charset = "utf8mb4"
+	local r = skynet.call("DBSERVER", "lua", "open", dbhost, port, database, user, passward, charset)
+	return {result = "true" }	
+end
 
 function REQUEST:get()
 	skynet.error("REQUEST get:", self.what)

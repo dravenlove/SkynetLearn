@@ -104,14 +104,18 @@ end
 
 send_request("handshake")
 send_request("set", { what = "hello", value = "world" })
+
 while true do
 	dispatch_package()
 	local cmd = socket.readstdin()
 	if cmd then
+		print("client cmd:" .. cmd)
 		if cmd == "quit" then
 			send_request("quit")
+		elseif cmd == "test" then  
+			 send_request("test", {what = "insert", table = "Account"})
 		else
-			send_request("get", { what = cmd })
+			send_request("test_connect", { what = cmd })
 		end
 	else
 		socket.usleep(1000)
